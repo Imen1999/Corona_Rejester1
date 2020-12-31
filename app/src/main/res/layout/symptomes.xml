@@ -17,21 +17,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:baselineAligned="false">
 
             <LinearLayout
                 android:layout_width="379dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                tools:ignore="NestedWeights">
+                tools:ignore="NestedWeights,UseCompoundDrawables">
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Symptômes les plus fréquents"
+                    android:text="@string/sympt_mes_les_plus_fr_quents"
                     android:textAlignment="center"
                     android:textColor="#E91E63"
                     android:textSize="24sp"
@@ -43,7 +44,8 @@
                     android:layout_width="141dp"
                     android:layout_height="106dp"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/symptome2" />
+                    app:srcCompat="@drawable/symptome2"
+                    android:contentDescription="TODO" />
             </LinearLayout>
 
             <LinearLayout
@@ -81,7 +83,7 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="96dp"
-                    android:text="Fatigue"
+                    android:text="@string/fatigue"
                     android:textAlignment="center"
                     android:textColor="#100F0F"
                     android:textSize="24sp" />
@@ -118,7 +120,8 @@
                     android:layout_width="118dp"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/symptome2" />
+                    app:srcCompat="@drawable/symptome2"
+                    android:contentDescription="tired" />
             </LinearLayout>
 
             <LinearLayout
@@ -222,7 +225,8 @@
                     android:layout_width="148dp"
                     android:layout_height="119dp"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/symptome2" />
+                    app:srcCompat="@drawable/symptome2"
+                    android:contentDescription="TODO" />
             </LinearLayout>
 
             <LinearLayout
@@ -252,7 +256,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="perte d’élocution ou de motricité"
+                    android:text="@string/perte_d_locution_ou_de_motricit"
                     android:textAlignment="center"
                     android:textColor="#0F100F"
                     android:textSize="24sp" />

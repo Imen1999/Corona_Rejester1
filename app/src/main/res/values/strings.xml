@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Corona Rejester</string>
+    <string name="textView3">Text3</string>
+    <string name="fatigue">Fatigue</string>
+    <string name="sympt_mes_les_plus_fr_quents">Symptômes les plus fréquents</string>
+    <string name="perte_d_locution_ou_de_motricit">perte d’élocution ou de motricité</string>
+    <string name="symptomes">Symptomes</string>
+    <string name="protection">Protection</string>
+    <string name="boutton1">bouton</string>
+
 
 </resources>
