@@ -7,6 +7,9 @@
     <string name="symptomes">Symptomes</string>
     <string name="protection">Protection</string>
     <string name="boutton1">bouton</string>
+    <string name="autre_item">autre </string>
+    <string name="parametres_item">parametres</string>
+    <string name="aide_item">aide</string>
 
 
 </resources>
